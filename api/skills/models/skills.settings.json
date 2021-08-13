@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "skills",
+  "info": {
+    "name": "Skills"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "skill": {
+      "type": "component",
+      "repeatable": true,
+      "component": "info.skill",
+      "required": true
+    }
+  }
+}

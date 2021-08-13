@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "experiences",
+  "info": {
+    "name": "Experiences"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "info.experience"
+    }
+  }
+}

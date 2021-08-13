@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hobbies-certificates",
+      "handler": "hobbies-certificates.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hobbies-certificates",
+      "handler": "hobbies-certificates.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hobbies-certificates",
+      "handler": "hobbies-certificates.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

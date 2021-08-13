@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "hobbies_certificates",
+  "info": {
+    "name": "Hobbies-Certificates",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "certificates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "info.certificates"
+    }
+  }
+}
