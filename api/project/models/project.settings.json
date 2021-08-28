@@ -44,17 +44,17 @@
       "type": "richtext",
       "required": true
     },
-    "tags": {
-      "type": "component",
-      "repeatable": true,
-      "component": "info.tags"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
     },
     "featured": {
       "type": "boolean"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "projects",
+      "dominant": true
     }
   }
 }
