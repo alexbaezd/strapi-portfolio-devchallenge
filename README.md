@@ -41,6 +41,12 @@
 
 *After registration should add some information for the post, projects, your skills, etc.*
 
+*Edit Permissions* 
+
+Settings/Roles(USERS & PERMISSIONS PLUGIN)/public
+
+Check **find and findone** for each application's actions (Blog, Projects, etc).
+
 ## Acknowledgements
 
 - [Strapi: Quick Start Guide](https://strapi.io/documentation/developer-docs/latest/getting-started/quick-start.html)
